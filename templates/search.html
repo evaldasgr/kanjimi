@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kanjimi</title>
+<style>
+body {
+    background: black;
+    color: white;
+    margin: 0.75em;
+    font-family: sans-serif;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+</style>
+</head>
+<body>
+<ul lang="ja">
+{% for def in defs %}
+<li>{{def}}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
