@@ -33,7 +33,7 @@ def search():
 
                 def_str = line[def_beg:def_end]
                 # Replace the curly braces with commas for a nicer presentation
-                def_str = def_str.replace("{", "").replace("}", ", ")
+                def_str = def_str.replace("{", "").replace("}", ",")
 
                 # Display the kanji alongside its definition
                 all_defs += [kanji + " " + def_str]
